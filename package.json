@@ -15,7 +15,7 @@
   "description": "Compass Digital - Frontend Take-Home Assessment ",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.11"
+    "vite": "^5.1.7"
   },
   "main": "index.tsx",
   "scripts": {
