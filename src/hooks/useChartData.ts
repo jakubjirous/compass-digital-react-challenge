@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { formatTemperature } from "../components/utils/formatTemperature";
+import { formatTemperature } from "../utils/formatTemperature";
 import { Temperatures } from "./useTemperatures";
 
 export function useChartData(data?: Temperatures) {
