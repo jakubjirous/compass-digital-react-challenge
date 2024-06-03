@@ -16,17 +16,18 @@ export async function getTemperatures({ limit = 10 }: { limit?: number }) {
                 temperature[key] = o[key];
               } else {
                 temperature[key] = Number(
-                  (o as unknown as Record<string, string>)[key]
+                  (o as unknown as Record<string, string>)[key],
                 );
               }
             });
             return temperature;
           })
-          .slice(0, limit)
-      )
+          .slice(0, limit),
+      ),
     );
     return new Promise((resolve) => setTimeout(resolve, 1000, response.json()));
   } catch (error) {
-    console.error(error);
+    console.error("Failed to fetch temperatures", error);
+    throw new Error("Failed to fetch temperatures");
   }
 }

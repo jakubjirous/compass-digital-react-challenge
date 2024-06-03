@@ -8,7 +8,7 @@ Hello, here is a fairly simple technical test to assess your skills as a fronten
 
 You are being asked to render an single page in this sandbox using the following technology stack:
 
-- TypeScript (already installed)
+- TypeScript (already installed) 
 - React (already installed)
 - React Router (v6)
 - MUI / Material UI (latest version is recommended)
