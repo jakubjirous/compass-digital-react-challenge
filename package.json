@@ -35,7 +35,7 @@
     "react": "latest",
     "react-dom": "latest",
     "typescript": "latest",
-    "vitest": "1.6.0",
+    "vitest": "3.2.6",
     "zod": "^3.23.8"
   },
   "devDependencies": {
